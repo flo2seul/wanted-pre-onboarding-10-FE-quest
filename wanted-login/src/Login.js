@@ -17,13 +17,21 @@ const Login = () => {
   };
   return (
     <div className="Login">
-      <input name="id" value={state.id} onChange={handleChangeState}></input>
-      <input
-        name="password"
-        value={state.password}
-        onChange={handleChangeState}
-      ></input>
-      <button onClick={handleSubmit}></button>
+      <div>
+        {" "}
+        id:
+        <input name="id" value={state.id} onChange={handleChangeState}></input>
+      </div>
+      <div>
+        {" "}
+        password:
+        <input
+          name="password"
+          value={state.password}
+          onChange={handleChangeState}
+        ></input>
+      </div>
+      <button onClick={handleSubmit}>submit</button>
     </div>
   );
 };

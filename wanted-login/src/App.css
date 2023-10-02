@@ -1,2 +1,13 @@
 .Login {
+  text-align: center;
+  padding-top: 50px;
+}
+.Login div,
+button {
+  margin-top: 10px;
+}
+.Login button {
+  width: 100px;
+  height: 25px;
+  cursor: pointer;
 }
